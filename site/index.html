@@ -411,12 +411,13 @@
         </div>
         <div class="row block-9 justify-content-center mb-5">
           <div class="col-md-8 mb-md-5">
-            <form action="#" class="bg-light p-5 contact-form">
+            <form action="https://formsubmit.co/soporte@blaucastmedia.com" method="POST" class="bg-light p-5 contact-form">
               <div class="form-group">
                 <input
                   type="text"
                   class="form-control"
                   placeholder="Tu nombre"
+                  name="name"
                 />
               </div>
               <div class="form-group">
@@ -424,14 +425,15 @@
                   type="text"
                   class="form-control"
                   placeholder="Tu correo"
+                  name="email"
                 />
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Asunto" />
+                <input type="text" class="form-control" placeholder="Asunto" name="subject"/>
               </div>
               <div class="form-group">
                 <textarea
-                  name=""
+                  name="message"
                   id=""
                   cols="30"
                   rows="7"
@@ -439,6 +441,7 @@
                   placeholder="Déjanos un mensaje"
                 ></textarea>
               </div>
+              <input type="hidden" name="_template" value="table">
               <div class="form-group">
                 <input
                   type="submit"
@@ -460,7 +463,7 @@
                   <span class="fa fa-map"></span>
                 </div>
                 <p>
-                  <span>Dirección:</span> Carrera 64 #9-05 Apto 402A Edificio
+                  <span>Dirección:</span> Carrera 64 #9-05 Oficina 402A Edificio
                   Las Marías <br />
                   Cali, Colombia
                 </p>
@@ -536,7 +539,7 @@
                   <li>
                     <span class="icon fa fa-map"></span
                     ><span class="text"
-                      >Carrera 64 #9-05 Apto 402A Edificio Las Marías Cali,
+                      >Carrera 64 #9-05 Oficina 402A Edificio Las Marías Cali,
                       Colombia</span
                     >
                   </li>
